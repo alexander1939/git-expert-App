@@ -9,7 +9,6 @@ export const GifGrid = ({ category }) => {
         <>
             <h3>{category}</h3>
 
-            //para que solo se muestre si es verdadero, para no mostrarlo todo el tiempo
             {
                 isLoading ? <h2>cargando...</h2> : null
             }
